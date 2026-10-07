@@ -1,0 +1,53 @@
+{
+  "model": "distilbert-base-uncased",
+  "train_subset": [
+    68000,
+    2000,
+    2000
+  ],
+  "max_len": 256,
+  "epochs": 1,
+  "test_metrics": {
+    "accuracy": 0.9955,
+    "precision": 0.9961,
+    "recall": 0.9951,
+    "f1": 0.9956
+  },
+  "confusion_matrix": [
+    [
+      968,
+      4
+    ],
+    [
+      5,
+      1023
+    ]
+  ],
+  "report": {
+    "REAL": {
+      "precision": 0.9948612538540597,
+      "recall": 0.9958847736625515,
+      "f1-score": 0.9953727506426735,
+      "support": 972.0
+    },
+    "FAKE": {
+      "precision": 0.9961051606621227,
+      "recall": 0.995136186770428,
+      "f1-score": 0.9956204379562044,
+      "support": 1028.0
+    },
+    "accuracy": 0.9955,
+    "macro avg": {
+      "precision": 0.9954832072580913,
+      "recall": 0.9955104802164898,
+      "f1-score": 0.9954965942994389,
+      "support": 2000.0
+    },
+    "weighted avg": {
+      "precision": 0.995500621953404,
+      "recall": 0.9955,
+      "f1-score": 0.9955000619218283,
+      "support": 2000.0
+    }
+  }
+}

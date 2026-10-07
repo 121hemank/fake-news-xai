@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.out
+*.err
+
+# too large for GitHub (>100MB) — add via Git LFS or Releases later
+data/WELFake.csv
+models/distilbert_fake_news/model.safetensors
